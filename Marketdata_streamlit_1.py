@@ -2,7 +2,7 @@ import yfinance as yf
 import streamlit as st
 
 st.write("""
-# Simple Marketdata Price App
+# Hallo Blockstar!
 
 Shown are ETHEREUM closing price and volume of ...
 
