@@ -4,7 +4,7 @@ import streamlit as st
 st.write("""
 # Hallo Blockstar!
 
-Shown are ETHEREUM closing price and volume data:
+Shown are closing price and volume data:
 
 """)
 
