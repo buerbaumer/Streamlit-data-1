@@ -4,7 +4,7 @@ import streamlit as st
 st.write("""
 # Simple Marketdata Price App
 
-Shown are closing price and volume of ...
+Shown are ETHEREUM closing price and volume of ...
 
 """)
 
