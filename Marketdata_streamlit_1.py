@@ -9,7 +9,8 @@ Shown are ETHEREUM closing price and volume data:
 """)
 
 #define the ticker symbol
-tickerSymbol = 'ETH-USD'
+tickerSymbol_def = 'ETH-USD'
+tickerSymbol = st.text_input("Ticker Symbol:", tickerSymbol_def)
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
