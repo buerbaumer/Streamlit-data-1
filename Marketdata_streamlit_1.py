@@ -14,7 +14,7 @@ tickerSymbol = st.text_input("Ticker Symbol:", tickerSymbol_def)
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
-tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2021-12-16')
+tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2022-02-17')
 # Open	High	Low	Close	Volume	Dividends	Stock Splits
 
 st.write("""
