@@ -16,6 +16,10 @@ tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
 #tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2022-10-23')
 tickerDf = tickerData.history(period='max')
+
+st.write('ShortName:           ', tickerData.info['shortName'])
+st.write('Symbol:              ', tickerData.info['symbol'])
+st.write('RegularMarketPrice:  ', tickerData.info['regularMarketPrice'])
 # Open	High	Low	Close	Volume	Dividends	Stock Splits
 
 st.write("""
