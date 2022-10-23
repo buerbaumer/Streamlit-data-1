@@ -20,6 +20,7 @@ tickerDf = tickerData.history(period='max')
 st.write('ShortName:           ', tickerData.info['shortName'])
 st.write('Symbol:              ', tickerData.info['symbol'])
 st.write('RegularMarketPrice:  ', tickerData.info['regularMarketPrice'])
+st.write('Currency:            ', tickerData.info['currency'])
 # Open	High	Low	Close	Volume	Dividends	Stock Splits
 
 st.write("""
